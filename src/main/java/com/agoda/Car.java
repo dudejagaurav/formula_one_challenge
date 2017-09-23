@@ -141,4 +141,10 @@ public class Car {
         this.teamName = teamName;
         return this;
     }
+
+    @Override
+    public int hashCode() {
+        //team name is unique
+        return System.identityHashCode(teamName);
+    }
 }

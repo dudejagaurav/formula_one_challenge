@@ -48,3 +48,31 @@ All material herein © 2005 – 2014 Agoda Company Pte. Ltd., All Rights Reserve
 AGODA ® is a registered trademark of AGIP LLC, used under license by Agoda Company Pte. Ltd.<br />
 Agoda is part ofPriceline (NASDAQ:PCLN)<br />
 
+
+
+
+
+Approach/Solution
+===================
+
+Logic is quite simple here the only problem here is when HF factor come into the picture and acceleration come into picture.
+
+
+if the object has a constant acceleration, its average acceleration is the exact same value.
+Average acceleration, measured in units of distance per time-squared
+as assesment is done after 2 second there is boost in speed as car acceleration is constant
+
+<Code>double distanceTraveled = this.getCurrentSpeed() + this.getAcceleration() * time * time / 2</Code>
+
+
+
+<h3> Assesment</h3>
+
+When ever assement is perfromed it is performed after 2 seconds.
+ so we will get the nearest car and store into hash set
+ so that no car will repeat again and finally apply hf over all cars.
+
+
+<H3>To run project either run <Code>mvn clean install</Code> or <Code>mvn test </Code></H3>
+
+
