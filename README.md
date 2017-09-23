@@ -55,7 +55,7 @@ Agoda is part ofPriceline (NASDAQ:PCLN)<br />
 Approach/Solution
 ===================
 
-Logic is quite simple here the only problem here is when HF factor come into the picture and acceleration come into picture.
+Logic is quite simple here the only problem here is when HF factor Or  acceleration come into picture.
 
 
 if the object has a constant acceleration, its average acceleration is the exact same value.
